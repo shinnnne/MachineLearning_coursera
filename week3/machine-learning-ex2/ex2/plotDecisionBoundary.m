@@ -35,6 +35,7 @@ else
     for i = 1:length(u)
         for j = 1:length(v)
             z(i,j) = mapFeature(u(i), v(j))*theta;
+            fprintf('z(%f, %f): %f\n',i,j,z(i,j));
         end
     end
     z = z'; % important to transpose z before calling contour

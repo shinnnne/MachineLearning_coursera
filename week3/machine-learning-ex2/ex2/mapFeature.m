@@ -9,7 +9,7 @@ function out = mapFeature(X1, X2)
 %
 %   Inputs X1, X2 must be the same size
 %
-
+%正则化：使用已经有的特征的幂来当作新的特征，这里最高6次幂
 degree = 6;
 out = ones(size(X1(:,1)));
 for i = 1:degree

@@ -24,9 +24,9 @@
 %
 
 %% Initialization
-clear ; close all; clc
+clear ; close all; clc      %%Çå¿Õ
 
-%% ==================== Part 1: Basic Function ====================
+%% =============== Part 1: Basic Function ====================
 % Complete warmUpExercise.m
 fprintf('Running warmUpExercise ... \n');
 fprintf('5x5 Identity Matrix: \n');
